@@ -1,0 +1,9 @@
+rules:
+  path-starts-with-api:
+    description: "All paths must start with /api"
+    given: "$..paths.*"
+    severity: "error"
+    then:
+      function: pattern
+      functionOptions:
+        match: "^/api"
