@@ -114,12 +114,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: https://localhost:3000/
+  - url: https://localhost:3000
     name: New Request
     meta:
       id: req_b1b8faceea394ad6886c5880dc943ad4
       created: 1752228320793
-      modified: 1765429903816
+      modified: 1752228328127
       isPrivate: false
       description: ""
       sortKey: -1752228320793
@@ -330,4 +330,4 @@ spec:
   meta:
     id: spc_52539930f04c42a68e0c6d7f4b823416
     created: 1752228252065
-    modified: 1765432305896
+    modified: 1752228252066
