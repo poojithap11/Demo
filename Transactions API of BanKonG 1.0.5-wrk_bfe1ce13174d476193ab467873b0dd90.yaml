@@ -1,4 +1,5 @@
 type: spec.insomnia.rest/5.0
+schema_version: "5.1"
 name: Transactions API of BanKonG 1.0.5
 meta:
   id: wrk_bfe1ce13174d476193ab467873b0dd90
@@ -155,12 +156,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: ""
+  - url: http://postman.echo
     name: sample request
     meta:
       id: req_87163dc05f3a4a4d92263dca422b5d0a
       created: 1761817938703
-      modified: 1761817952206
+      modified: 1765429928819
       isPrivate: false
       description: ""
       sortKey: -1761817938703
@@ -371,4 +372,4 @@ spec:
   meta:
     id: spc_c903c8cf00b24d4db12f1ca13aa26c34
     created: 1752228816842
-    modified: 1752228816843
+    modified: 1765432305900

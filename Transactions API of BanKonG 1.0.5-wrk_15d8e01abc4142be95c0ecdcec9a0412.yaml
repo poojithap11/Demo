@@ -1,4 +1,5 @@
 type: spec.insomnia.rest/5.0
+schema_version: "5.1"
 name: Transactions API of BanKonG 1.0.5
 meta:
   id: wrk_15d8e01abc4142be95c0ecdcec9a0412
@@ -113,12 +114,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: https://localhost:3000
+  - url: https://localhost:3000/
     name: New Request
     meta:
       id: req_b1b8faceea394ad6886c5880dc943ad4
       created: 1752228320793
-      modified: 1752228328127
+      modified: 1765429903816
       isPrivate: false
       description: ""
       sortKey: -1752228320793
@@ -329,4 +330,4 @@ spec:
   meta:
     id: spc_52539930f04c42a68e0c6d7f4b823416
     created: 1752228252065
-    modified: 1752228252066
+    modified: 1765432305896
