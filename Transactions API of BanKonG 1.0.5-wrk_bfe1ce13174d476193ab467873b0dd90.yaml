@@ -1,6 +1,5 @@
 type: spec.insomnia.rest/5.0
-schema_version: "5.1"
-name: test-renamed
+name: Transactions API of BanKonG 1.0.5
 meta:
   id: wrk_bfe1ce13174d476193ab467873b0dd90
   created: 1752228816838
@@ -22,6 +21,9 @@ collection:
       key: apikey
       value: "{{ _.apikey }}"
       addTo: header
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -60,6 +62,9 @@ collection:
       key: apikey
       value: "{{ _.apikey }}"
       addTo: header
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -83,6 +88,9 @@ collection:
       key: apikey
       value: "{{ _.apikey }}"
       addTo: header
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -106,6 +114,9 @@ collection:
       key: apikey
       value: "{{ _.apikey }}"
       addTo: header
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -127,6 +138,9 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.3.0
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -148,27 +162,6 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.3.0
-    settings:
-      renderRequestBody: true
-      encodeUrl: true
-      followRedirects: global
-      cookies:
-        send: true
-        store: true
-      rebuildPath: true
-  - url: ""
-    name: sample request
-    meta:
-      id: req_87163dc05f3a4a4d92263dca422b5d0a
-      created: 1761817938703
-      modified: 1761817952206
-      isPrivate: false
-      description: ""
-      sortKey: -1761817938703
-    method: GET
-    headers:
-      - name: User-Agent
-        value: insomnia/11.6.2
     settings:
       renderRequestBody: true
       encodeUrl: true
