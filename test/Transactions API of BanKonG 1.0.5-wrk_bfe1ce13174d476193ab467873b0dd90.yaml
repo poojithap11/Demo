@@ -1,5 +1,5 @@
 type: spec.insomnia.rest/5.0
-name: Testing_pull
+name: Test_pull
 meta:
   id: wrk_bfe1ce13174d476193ab467873b0dd90
   created: 1752228816838
