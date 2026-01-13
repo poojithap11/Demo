@@ -1,6 +1,6 @@
 type: spec.insomnia.rest/5.0
 schema_version: "5.1"
-name: Transactions API of BanKonG 1.0.5
+name: test-renamed
 meta:
   id: wrk_bfe1ce13174d476193ab467873b0dd90
   created: 1752228816838
