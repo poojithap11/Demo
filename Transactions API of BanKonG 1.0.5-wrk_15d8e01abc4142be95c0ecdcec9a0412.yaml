@@ -136,12 +136,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: ""
+  - url: https
     name: New Request
     meta:
       id: req_4fcba350773c475593996be62fe9ef6f
       created: 1768287449443
-      modified: 1768287449443
+      modified: 1768287530565
       isPrivate: false
       description: ""
       sortKey: -1768287449443
