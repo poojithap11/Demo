@@ -1,4 +1,5 @@
 type: spec.insomnia.rest/5.0
+schema_version: "5.1"
 name: Transactions API of BanKonG 1.0.5
 meta:
   id: wrk_15d8e01abc4142be95c0ecdcec9a0412
@@ -53,8 +54,8 @@ collection:
         }
     headers:
       - name: Content-Type
-        disabled: false
         value: application/json
+        disabled: false
     authentication:
       type: apikey
       key: apikey
@@ -127,6 +128,29 @@ collection:
     headers:
       - name: User-Agent
         value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https
+    name: New Request
+    meta:
+      id: req_4fcba350773c475593996be62fe9ef6f
+      created: 1768287449443
+      modified: 1768287530565
+      isPrivate: false
+      description: ""
+      sortKey: -1768287449443
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.2.0
+        description: ""
+        disabled: false
     settings:
       renderRequestBody: true
       encodeUrl: true
