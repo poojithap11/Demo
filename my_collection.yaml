@@ -1,6 +1,6 @@
 type: collection.insomnia.rest/5.0
 schema_version: "5.1"
-name: testing_export
+name: renamed_file
 meta:
   id: wrk_5672f4d62fa14e3db625537d5049f7e1
   created: 1765443080792
